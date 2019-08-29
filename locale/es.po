@@ -1,0 +1,131 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:activity.activity,categories:"
+msgid "Categories"
+msgstr "Categorías de tercero"
+
+msgctxt "field:activity.activity-activity.category,activity:"
+msgid "Activity"
+msgstr "Actividad"
+
+msgctxt "field:activity.activity-activity.category,category:"
+msgid "Category"
+msgstr "Categoría"
+
+msgctxt "field:activity.activity-activity.category,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:activity.activity-activity.category,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:activity.activity-activity.category,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:activity.activity-activity.category,rec_name:"
+msgid "Record Name"
+msgstr "Nombre del registro"
+
+msgctxt "field:activity.activity-activity.category,write_date:"
+msgid "Write Date"
+msgstr "Fecha de modificación"
+
+msgctxt "field:activity.activity-activity.category,write_uid:"
+msgid "Write User"
+msgstr "Usuario de modificación"
+
+msgctxt "field:activity.category,active:"
+msgid "Active"
+msgstr "Activo"
+
+msgctxt "field:activity.category,childs:"
+msgid "Children"
+msgstr "Hijos"
+
+msgctxt "field:activity.category,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:activity.category,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:activity.category,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:activity.category,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:activity.category,parent:"
+msgid "Parent"
+msgstr "Padre"
+
+msgctxt "field:activity.category,rec_name:"
+msgid "Record Name"
+msgstr "Nombre del registro"
+
+msgctxt "field:activity.category,write_date:"
+msgid "Write Date"
+msgstr "Fecha de modificación"
+
+msgctxt "field:activity.category,write_uid:"
+msgid "Write User"
+msgstr "Usuario de modificación"
+
+msgctxt "help:activity.activity,categories:"
+msgid "The categories the activity belongs to."
+msgstr "Las categorías a las que pertenece la actividad."
+
+msgctxt "help:activity.category,active:"
+msgid "Uncheck to exclude from future use."
+msgstr "Desmarcar para excluir de uso en el futuro."
+
+msgctxt "help:activity.category,childs:"
+msgid "Add children below the category."
+msgstr "Añade hijos debajo de la categoría."
+
+msgctxt "help:activity.category,name:"
+msgid "The main identifier of the category."
+msgstr "El identificador principal de la categoría."
+
+msgctxt "help:activity.category,parent:"
+msgid "Add the category below the parent."
+msgstr "Añade la categoría debajo del padre."
+
+msgctxt "model:activity.activity-activity.category,name:"
+msgid "Activity - Category"
+msgstr "Actividad - Categoría"
+
+msgctxt "model:activity.category,name:"
+msgid "Category"
+msgstr "Categoría"
+
+msgctxt "model:ir.action,name:act_activity_by_category"
+msgid "Activities by Category"
+msgstr "Actividades por categoría"
+
+msgctxt "model:ir.action,name:act_category_list"
+msgid "Categories"
+msgstr "Categorías de tercero"
+
+msgctxt "model:ir.action,name:act_category_tree"
+msgid "Categories"
+msgstr "Categorías de tercero"
+
+msgctxt "model:ir.message,text:msg_category_name_unique"
+msgid "The name of activity category must be unique by parent."
+msgstr "El nombre de la categoría de actividad debe ser único por padre."
+
+msgctxt "model:ir.ui.menu,name:menu_category_list"
+msgid "Categories"
+msgstr "Categorías de tercero"
+
+msgctxt "model:ir.ui.menu,name:menu_category_tree"
+msgid "Categories"
+msgstr "Categorías de tercero"
