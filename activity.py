@@ -11,24 +11,16 @@ from trytond.pyson import Eval
 
 __all__ = ['Category', 'Activity', 'ActivityCategory']
 
-STATES = {
-    'readonly': ~Eval('active'),
-}
-DEPENDS = ['active']
-
 
 class Category(DeactivableMixin, tree(separator=' / '), ModelSQL, ModelView):
     "Category"
     __name__ = 'activity.category'
-    name = fields.Char('Name', required=True, states=STATES, translate=True,
-        depends=DEPENDS,
+    name = fields.Char('Name', required=True, translate=True,
         help="The main identifier of the category.")
     parent = fields.Many2One('activity.category', 'Parent',
-        select=True, states=STATES, depends=DEPENDS,
-        help="Add the category below the parent.")
+        select=True, help="Add the category below the parent.")
     childs = fields.One2Many('activity.category', 'parent',
-       'Children', states=STATES, depends=DEPENDS,
-        help="Add children below the category.")
+       'Children', help="Add children below the category.")
 
     @classmethod
     def __setup__(cls):
