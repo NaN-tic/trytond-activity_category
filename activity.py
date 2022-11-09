@@ -18,7 +18,7 @@ class Category(DeactivableMixin, tree(separator=' / '), ModelSQL, ModelView):
     name = fields.Char('Name', required=True, translate=True,
         help="The main identifier of the category.")
     parent = fields.Many2One('activity.category', 'Parent',
-        select=True, help="Add the category below the parent.")
+        help="Add the category below the parent.")
     childs = fields.One2Many('activity.category', 'parent',
        'Children', help="Add children below the category.")
 
@@ -46,6 +46,6 @@ class ActivityCategory(ModelSQL):
     __name__ = 'activity.activity-activity.category'
     _table = 'activity_category_rel'
     activity = fields.Many2One('activity.activity', 'Activity', ondelete='CASCADE',
-            required=True, select=True)
+            required=True)
     category = fields.Many2One('activity.category', 'Category',
-        ondelete='CASCADE', required=True, select=True)
+        ondelete='CASCADE', required=True)
